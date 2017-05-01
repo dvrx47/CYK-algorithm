@@ -7,7 +7,7 @@
     symbole terminalne to 26 liter alfabetu angielskiego
     przykładowe wejście:
     1       // liczba sprawdzanych gramatyk 
-    2 3     // liczba produkcji typu pierwszego
+    2 3     // liczba produkcji typu <pierwszego> <drugiego>
     A B C   // produkcja typu 1
     A B B   // produkcja typu 1
     A b     // produkcja typu 2
