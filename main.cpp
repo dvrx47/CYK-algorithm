@@ -3,16 +3,21 @@
 //dane wejściowe:
 /*
     symbol startowy A
-    zbiór symboli A B C D E F G H
-    litery to 26 liter alfabetu
-    1 //liczba testów
-    2 3 // liczba produkcji typu pierwszego
-    A B C   //produkcja typu 1
-    A B B   //produkcja typu 1
-    A b     //produkcja typu 2
-    C c     //produkcja typu 2
-    B b     //produkcja typu 2
-    bbccc   //słowo
+    zbiór symboli nieterminalnych {A, B, C, D, E, F, G, H }
+    symbole terminalne to 26 liter alfabetu angielskiego
+    przykładowe wejście:
+    1       // liczba sprawdzanych gramatyk 
+    2 3     // liczba produkcji typu pierwszego
+    A B C   // produkcja typu 1
+    A B B   // produkcja typu 1
+    A b     // produkcja typu 2
+    C c     // produkcja typu 2
+    B b     // produkcja typu 2
+    bbccc   // słowo
+    
+    dane wyjściowe:
+    TAK     // słowo należy do gramatyki
+    NIE     // else
 
 */
 
